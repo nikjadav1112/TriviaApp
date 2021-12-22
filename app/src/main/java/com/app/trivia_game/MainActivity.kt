@@ -32,6 +32,7 @@ class MainActivity : AppCompatActivity() {
                     relAnsIncorrect.visibility = View.VISIBLE
                     relRightAns.visibility  = View.VISIBLE
                 }
+                
                 Handler().postDelayed({
                     showProgress(false)
                 },3000)
